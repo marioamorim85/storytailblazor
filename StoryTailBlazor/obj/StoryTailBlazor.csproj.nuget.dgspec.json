@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ApplicationTests\\storytailblazor\\StoryTailBlazor\\StoryTailBlazor.csproj": {}
+    "C:\\Application\\storytailblazor\\StoryTailBlazor\\StoryTailBlazor.csproj": {}
   },
   "projects": {
-    "C:\\ApplicationTests\\storytailblazor\\StoryTailBlazor\\StoryTailBlazor.csproj": {
+    "C:\\Application\\storytailblazor\\StoryTailBlazor\\StoryTailBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ApplicationTests\\storytailblazor\\StoryTailBlazor\\StoryTailBlazor.csproj",
+        "projectUniqueName": "C:\\Application\\storytailblazor\\StoryTailBlazor\\StoryTailBlazor.csproj",
         "projectName": "StoryTailBlazor",
-        "projectPath": "C:\\ApplicationTests\\storytailblazor\\StoryTailBlazor\\StoryTailBlazor.csproj",
-        "packagesPath": "C:\\Users\\vventura\\.nuget\\packages\\",
-        "outputPath": "C:\\ApplicationTests\\storytailblazor\\StoryTailBlazor\\obj\\",
+        "projectPath": "C:\\Application\\storytailblazor\\StoryTailBlazor\\StoryTailBlazor.csproj",
+        "packagesPath": "C:\\Users\\vmfventura\\.nuget\\packages\\",
+        "outputPath": "C:\\Application\\storytailblazor\\StoryTailBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vventura\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\vmfventura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,8 +40,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -74,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\vventura\\.dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
