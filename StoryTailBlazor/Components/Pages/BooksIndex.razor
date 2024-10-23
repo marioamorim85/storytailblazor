@@ -1,0 +1,46 @@
+@page "/books-index"
+
+<h3 style="text-align: center; font-size: 2em; color: #333; margin-bottom: 30px;">Choose one of the options</h3>
+
+<ul style="list-style: none; padding-left: 0; max-width: 600px; margin: 0 auto;">
+    <li style="margin-bottom: 15px;">
+        <NavLink href="/books" style="display: block; text-decoration: none; padding: 15px; background-color: #f8f9fa; color: #343a40; border: 1px solid #ced4da; border-radius: 6px; text-align: center; font-size: 1.2em; font-weight: 500; transition: all 0.3s;">
+            View all books with filters
+        </NavLink>
+    </li>
+    <li style="margin-bottom: 15px;">
+        <NavLink href="/book-activities" style="display: block; text-decoration: none; padding: 15px; background-color: #f8f9fa; color: #343a40; border: 1px solid #ced4da; border-radius: 6px; text-align: center; font-size: 1.2em; font-weight: 500; transition: all 0.3s;">
+            View activities of a book
+        </NavLink>
+    </li>
+    <li style="margin-bottom: 15px;">
+        <NavLink href="/books-user" style="display: block; text-decoration: none; padding: 15px; background-color: #f8f9fa; color: #343a40; border: 1px solid #ced4da; border-radius: 6px; text-align: center; font-size: 1.2em; font-weight: 500; transition: all 0.3s;">
+            View favorite and read books of a user
+        </NavLink>
+    </li>
+    <li style="margin-bottom: 15px;">
+        <NavLink href="/suggested-books" style="display: block; text-decoration: none; padding: 15px; background-color: #f8f9fa; color: #343a40; border: 1px solid #ced4da; border-radius: 6px; text-align: center; font-size: 1.2em; font-weight: 500; transition: all 0.3s;">
+            View suggested books
+        </NavLink>
+    </li>
+    <li style="margin-bottom: 15px;">
+        <NavLink href="/popular-books" style="display: block; text-decoration: none; padding: 15px; background-color: #f8f9fa; color: #343a40; border: 1px solid #ced4da; border-radius: 6px; text-align: center; font-size: 1.2em; font-weight: 500; transition: all 0.3s;">
+            View most popular books of the last 3 months
+        </NavLink>
+    </li>
+    <li style="margin-bottom: 15px;">
+        <NavLink href="/usage-times" style="display: block; text-decoration: none; padding: 15px; background-color: #f8f9fa; color: #343a40; border: 1px solid #ced4da; border-radius: 6px; text-align: center; font-size: 1.2em; font-weight: 500; transition: all 0.3s;">
+            View peak usage times of the platform
+        </NavLink>
+    </li>
+</ul>
+
+<style>
+    ul li:hover {
+        background-color: #e9ecef;
+    }
+    ul li:hover a {
+        color: #007bff;
+        border-color: #007bff;
+    }
+</style>

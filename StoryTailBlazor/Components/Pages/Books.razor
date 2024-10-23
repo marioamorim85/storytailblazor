@@ -1,0 +1,307 @@
+@page "/books"
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@inject IHttpClientFactory ClientFactory
+@inject IJSRuntime JS
+
+<h3 style="text-align: center; font-size: 2em; color: #333;">List of Books</h3>
+
+<!-- Filtros -->
+<div style="max-width: 900px; margin: 0 auto; padding: 20px; border-radius: 10px; background-color: #f8f9fa; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+        <!-- Campo de Título -->
+        <div>
+            <label for="filterTitle" style="font-weight: bold;">Title: </label>
+            <input type="text" id="filterTitle" name="filterTitle" value="@filterTitle" 
+                   @onchange="@(e => OnFilterChange("title", e.Value?.ToString()))"
+                   style="padding: 5px; border-radius: 5px; border: 1px solid #ccc; width: 200px;" />
+        </div>
+
+        <!-- Campo de Autor -->
+        <div>
+            <label for="filterAuthor" style="font-weight: bold;">Author: </label>
+            <input type="text" id="filterAuthor" name="filterAuthor" value="@filterAuthor"
+                   @oninput="@(e => OnFilterChange("author", e.Value?.ToString()))"
+                   style="padding: 5px; border-radius: 5px; border: 1px solid #ccc; width: 200px;" />
+        </div>
+
+        <!-- Combobox Faixa Etária -->
+        <div>
+            <label for="filterAgeGroupId" style="font-weight: bold;">Age Group: </label>
+            <select id="filterAgeGroupId" name="filterAgeGroupId" @onchange="@(e => OnFilterChange("ageGroup", e.Value?.ToString()))"
+                    style="padding: 5px; border-radius: 5px; border: 1px solid #ccc;">
+                <option value="">Select Age Group</option>
+                @foreach (var ageGroup in ageGroups)
+                {
+                    <option value="@ageGroup.Id">@ageGroup.AgeGroupDescription</option>
+                }
+            </select>
+        </div>
+
+        <!-- Combobox Status Ativo -->
+        <div>
+            <label for="filterIsActive" style="font-weight: bold;">Is Active: </label>
+            <select id="filterIsActive" name="filterIsActive" @onchange="@(e => OnFilterChange("isActive", e.Value?.ToString()))"
+                    style="padding: 5px; border-radius: 5px; border: 1px solid #ccc;">
+                <option value="">Select Status</option>
+                <option value="1">Active</option>
+                <option value="0">Inactive</option>
+            </select>
+        </div>
+
+        <!-- Campo de Tempo de Leitura Mínimo -->
+        <div>
+            <label for="filterMinReadTime" style="font-weight: bold;">Min Read Time: </label>
+            <input type="number" id="filterMinReadTime" name="filterMinReadTime" value="@filterMinReadTime"
+                   @oninput="@(e => OnFilterChange("minReadTime", e.Value?.ToString()))"
+                   style="padding: 5px; border-radius: 5px; border: 1px solid #ccc;" />
+        </div>
+
+        <!-- Campo de Tempo de Leitura Máximo -->
+        <div>
+            <label for="filterMaxReadTime" style="font-weight: bold;">Max Read Time: </label>
+            <input type="number" id="filterMaxReadTime" name="filterMaxReadTime" value="@filterMaxReadTime"
+                   @oninput="@(e => OnFilterChange("maxReadTime", e.Value?.ToString()))"
+                   style="padding: 5px; border-radius: 5px; border: 1px solid #ccc;" />
+        </div>
+
+        <!-- Campo de Tag -->
+        <div>
+            <label for="filterTag" style="font-weight: bold;">Tag: </label>
+            <input type="text" id="filterTag" name="filterTag" value="@filterTag"
+                   @oninput="@(e => OnFilterChange("tag", e.Value?.ToString()))"
+                   style="padding: 5px; border-radius: 5px; border: 1px solid #ccc;" />
+        </div>
+    </div>
+
+    <!-- Exibição da query gerada -->
+    <div style="margin-top: 20px; padding: 10px; background-color: #e9ecef; border: 1px solid #ccc; border-radius: 5px;">
+        <strong>Generated Query:</strong> 
+        <span>@generatedQuery</span>
+    </div>
+</div>
+
+<!-- Lista de Livros -->
+@if (isLoading)
+{
+    <p style="text-align: center;">Loading...</p>
+}
+else if (books == null || books.Count == 0)
+{
+    <p style="text-align: center; color: #dc3545;">No books found with the selected filters.</p>
+}
+else
+{
+    <ul style="list-style: none; padding-left: 0; max-width: 900px; margin: 20px auto;">
+        @foreach (var book in books)
+        {
+            <li style="margin-bottom: 15px; padding: 15px; background-color: #f8f9fa; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+                <h4 style="margin: 0 0 10px 0;">@book.Title</h4>
+                @if (book.Authors != null && book.Authors.Any())
+                {
+                    <span style="color: #6c757d;"> by @string.Join(", ", book.Authors.Select(author => $"{author.FirstName} {author.LastName}"))</span>
+                }
+                <div style="margin-top: 10px;">
+                    <span style="display: block; color: #495057;">Read Time: <strong>@book.ReadTime minutes</strong></span>
+                    <span style="display: block; color: #495057;">Age Group: <strong>@book.AgeGroup.AgeGroupDescription</strong></span>
+                </div>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private List<BookDto> books = new();
+    private List<AgeGroupDto> ageGroups = new();
+    private bool isLoading = true;
+
+    // Filtros
+    private string? filterTitle;
+    private string? filterAuthor;
+    private int? filterAgeGroupId;
+    private int? filterIsActive;  // Alterado de bool? para int?
+    private int? filterMinReadTime;
+    private int? filterMaxReadTime;
+    private string? filterTag;
+    private string generatedQuery = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadAgeGroups();
+        await LoadBooks();
+    }
+
+    private async Task LoadBooks()
+    {
+        isLoading = true;
+        try
+        {
+            var client = ClientFactory.CreateClient("StoryTailApi");
+
+            generatedQuery = GenerateQuery();
+
+            var response = await client.GetAsync(generatedQuery);
+            if (response.IsSuccessStatusCode)
+            {
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true,
+                };
+                var apiResponse = await response.Content.ReadFromJsonAsync<List<BookDto>>(options);
+                books = apiResponse ?? new List<BookDto>();
+            }
+            else
+            {
+                Console.WriteLine($"Error loading books: {response.StatusCode}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching books: {ex.Message}");
+            Console.WriteLine($"StackTrace: {ex.StackTrace}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private async Task LoadAgeGroups()
+    {
+        try
+        {
+            var client = ClientFactory.CreateClient("StoryTailApi");
+            var response = await client.GetAsync("/api/agegroups");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                };
+                ageGroups = await response.Content.ReadFromJsonAsync<List<AgeGroupDto>>(options) ?? new List<AgeGroupDto>();
+                Console.WriteLine($"Loaded {ageGroups.Count} age groups");
+            }
+            else
+            {
+                Console.WriteLine($"Error loading age groups: {response.StatusCode}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Exception when loading age groups: {ex.Message}");
+            Console.WriteLine($"StackTrace: {ex.StackTrace}");
+        }
+    }
+
+    private async Task OnFilterChange(string filterType, string? value)
+    {
+        switch (filterType)
+        {
+            case "title":
+                filterTitle = value;
+                break;
+            case "author":
+                filterAuthor = value;
+                break;
+            case "ageGroup":
+                filterAgeGroupId = string.IsNullOrEmpty(value) ? null : int.Parse(value);
+                break;
+            case "isActive":
+                filterIsActive = string.IsNullOrEmpty(value) ? null : int.Parse(value);  
+                break;
+            case "minReadTime":
+                filterMinReadTime = string.IsNullOrEmpty(value) ? null : int.Parse(value);
+                break;
+            case "maxReadTime":
+                filterMaxReadTime = string.IsNullOrEmpty(value) ? null : int.Parse(value);
+                break;
+            case "tag":
+                filterTag = value;
+                break;
+        }
+
+        UpdateQuery();
+        await LoadBooks();
+    }
+
+    private void UpdateQuery()
+    {
+        generatedQuery = GenerateQuery();
+        StateHasChanged();
+    }
+
+    private string GenerateQuery()
+    {
+        bool hasFilters = !string.IsNullOrWhiteSpace(filterTitle) ||
+                          !string.IsNullOrWhiteSpace(filterAuthor) ||
+                          filterAgeGroupId.HasValue ||
+                          filterIsActive.HasValue ||
+                          filterMinReadTime.HasValue ||
+                          filterMaxReadTime.HasValue ||
+                          !string.IsNullOrWhiteSpace(filterTag);
+
+        string query = hasFilters ? "/api/books?" : "/api/Books/all";
+
+        if (!string.IsNullOrWhiteSpace(filterTitle))
+        {
+            query += $"title={Uri.EscapeDataString(filterTitle)}&";
+        }
+
+        if (!string.IsNullOrWhiteSpace(filterAuthor))
+        {
+            query += $"author={Uri.EscapeDataString(filterAuthor)}&";
+        }
+
+        if (filterAgeGroupId.HasValue)
+        {
+            query += $"ageGroupId={filterAgeGroupId.Value}&";
+        }
+
+        if (filterIsActive.HasValue)
+        {
+            query += $"isActive={filterIsActive.Value}&";  // Adaptado para int (1 ou 0)
+        }
+
+        if (filterMinReadTime.HasValue)
+        {
+            query += $"minReadTime={filterMinReadTime.Value}&";
+        }
+
+        if (filterMaxReadTime.HasValue)
+        {
+            query += $"maxReadTime={filterMaxReadTime.Value}&";
+        }
+
+        if (!string.IsNullOrWhiteSpace(filterTag))
+        {
+            query += $"tag={Uri.EscapeDataString(filterTag)}&";
+        }
+
+        return query.TrimEnd('&');
+    }
+
+    public class BookDto
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public int ReadTime { get; set; }
+        public int IsActive { get; set; }  // Alterado para int
+        public int AccessLevel { get; set; }
+        public AgeGroupDto AgeGroup { get; set; } = new();
+        public List<AuthorDto> Authors { get; set; } = new();
+    }
+
+    public class AgeGroupDto
+    {
+        public int Id { get; set; }
+        public string AgeGroupDescription { get; set; }
+    }
+
+    public class AuthorDto
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+    }
+}

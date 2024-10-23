@@ -1,0 +1,2227 @@
+{
+  "Version": 1,
+  "Hash": "XzBMjWgJub6JtaprM/kYJoaU3jXOnm4SgSyKQJ+B8JU=",
+  "Source": "StoryTailApi",
+  "BasePath": "_content/StoryTailApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\StoryTailBlazor.csproj",
+      "Version": 2,
+      "Source": "StoryTailBlazor",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StoryTailBlazor\\wwwroot",
+      "Source": "StoryTailBlazor",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\Debug\\net9.0\\compressed\\hoazoh60p8-7wm45wd2su.gz",
+      "SourceId": "StoryTailApi",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/StoryTailApi",
+      "RelativePath": "StoryTailApi#[.{fingerprint=7wm45wd2su}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\Debug\\net9.0\\scopedcss\\bundle\\StoryTailApi.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "y7meragfdr",
+      "Integrity": "AnVnxKF8W4C8pt3lw4ujisCEASD/04an/TYdrWVzm48=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\Debug\\net9.0\\scopedcss\\bundle\\StoryTailApi.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\Debug\\net9.0\\scopedcss\\bundle\\StoryTailApi.styles.css",
+      "SourceId": "StoryTailApi",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/StoryTailApi",
+      "RelativePath": "StoryTailApi#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "7wm45wd2su",
+      "Integrity": "Gb7DncvwIE/W9lhczx9dDz0zUitArLmrcw2p7yQAOnM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\Debug\\net9.0\\scopedcss\\bundle\\StoryTailApi.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\Components\\Pages\\Books.razor.js",
+      "SourceId": "StoryTailBlazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "RelativePath": "Components/Pages/Books.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lztijjxn71",
+      "Integrity": "r6hd9QmzXSL67gMX8TlvnDWAFifBaN7iBpX25t9CGxk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\Components\\Pages\\Books.razor.js"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\Components\\Pages\\BooksIndex.razor.js",
+      "SourceId": "StoryTailBlazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "RelativePath": "Components/Pages/BooksIndex.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "46t1ifx3r6",
+      "Integrity": "FPhib5XDNljVS2ExS9RgZT+BUkB5uSVXG7jdg9NwNoc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\Components\\Pages\\BooksIndex.razor.js"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\2bd8cgp1wx-8inm30yfxf.gz",
+      "SourceId": "StoryTailBlazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ndsngf4xxc",
+      "Integrity": "leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\2bd8cgp1wx-8inm30yfxf.gz"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\4lvebu42ft-46t1ifx3r6.gz",
+      "SourceId": "StoryTailBlazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "RelativePath": "Components/Pages/BooksIndex.razor.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\Components\\Pages\\BooksIndex.razor.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xson20usrf",
+      "Integrity": "Uf999s9ZYP0rYmFAhfiHo8nlO4geTGTVKyk4yYypFow=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\4lvebu42ft-46t1ifx3r6.gz"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\59bc92ma1g-khy4lop6wu.gz",
+      "SourceId": "StoryTailBlazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "RelativePath": "app#[.{fingerprint=khy4lop6wu}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "596e5mu3rg",
+      "Integrity": "KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\59bc92ma1g-khy4lop6wu.gz"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\98di45bnmn-lztijjxn71.gz",
+      "SourceId": "StoryTailBlazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "RelativePath": "Components/Pages/Books.razor.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\Components\\Pages\\Books.razor.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "g1l0o227cb",
+      "Integrity": "hKo29/P2T/csbghG06UwdnIeW9SsmlLR/0YwWf3ADKc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\98di45bnmn-lztijjxn71.gz"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\ky4srt2oty-6gzpyzhau4.gz",
+      "SourceId": "StoryTailBlazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint=6gzpyzhau4}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wjd0mz82r2",
+      "Integrity": "nIYg97JbG2FdSdefQ6b2k1+KsVQbvCqFNZGz5gVorsg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\ky4srt2oty-6gzpyzhau4.gz"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\p4nibngsxy-o0s5yp24ox.gz",
+      "SourceId": "StoryTailBlazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "RelativePath": "StoryTailBlazor#[.{fingerprint=o0s5yp24ox}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\StoryTailBlazor.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "lrfhnqytnw",
+      "Integrity": "7xZt9JRS3r3AiY2VfXqMxbbTEHbFeT/zIx9nx45XnH0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\p4nibngsxy-o0s5yp24ox.gz"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\StoryTailBlazor.bundle.scp.css",
+      "SourceId": "StoryTailBlazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "RelativePath": "StoryTailBlazor#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "o0s5yp24ox",
+      "Integrity": "6FzX6qVkUT7m2PMiVXhtuC9UhYQ8EdqXOICZYPRuTZ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\StoryTailBlazor.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\app.css",
+      "SourceId": "StoryTailBlazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "khy4lop6wu",
+      "Integrity": "aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "StoryTailBlazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "StoryTailBlazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\favicon.png",
+      "SourceId": "StoryTailBlazor",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\",
+      "BasePath": "_content/StoryTailBlazor",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\favicon.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/StoryTailBlazor/app.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\59bc92ma1g-khy4lop6wu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,000636132316"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1571"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/app.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/app.css.gz",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\59bc92ma1g-khy4lop6wu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/app.khy4lop6wu.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\59bc92ma1g-khy4lop6wu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,000636132316"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1571"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "khy4lop6wu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/StoryTailBlazor/app.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/app.khy4lop6wu.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "khy4lop6wu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/StoryTailBlazor/app.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/app.khy4lop6wu.css.gz",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\59bc92ma1g-khy4lop6wu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "khy4lop6wu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/StoryTailBlazor/app.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\ky4srt2oty-6gzpyzhau4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,000041879554"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23877"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nIYg97JbG2FdSdefQ6b2k1+KsVQbvCqFNZGz5gVorsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/bootstrap/bootstrap.min.6gzpyzhau4.css.gz",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\ky4srt2oty-6gzpyzhau4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nIYg97JbG2FdSdefQ6b2k1+KsVQbvCqFNZGz5gVorsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nIYg97JbG2FdSdefQ6b2k1+KsVQbvCqFNZGz5gVorsg="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\ky4srt2oty-6gzpyzhau4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,000041879554"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23877"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nIYg97JbG2FdSdefQ6b2k1+KsVQbvCqFNZGz5gVorsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\2bd8cgp1wx-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,000013392977"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74665"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css.map"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css.map"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\2bd8cgp1wx-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74665"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-gzip"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css.map.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css.gz",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\ky4srt2oty-6gzpyzhau4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nIYg97JbG2FdSdefQ6b2k1+KsVQbvCqFNZGz5gVorsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nIYg97JbG2FdSdefQ6b2k1+KsVQbvCqFNZGz5gVorsg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\2bd8cgp1wx-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,000013392977"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74665"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/bootstrap/bootstrap.min.css.map.gz",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\2bd8cgp1wx-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74665"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-gzip"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/Components/Pages/Books.razor.js",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\Components\\Pages\\Books.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r6hd9QmzXSL67gMX8TlvnDWAFifBaN7iBpX25t9CGxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Oct 2024 09:27:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r6hd9QmzXSL67gMX8TlvnDWAFifBaN7iBpX25t9CGxk="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/Components/Pages/Books.razor.js",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\98di45bnmn-lztijjxn71.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,014492753623"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hKo29/P2T/csbghG06UwdnIeW9SsmlLR/0YwWf3ADKc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Oct 2024 09:27:04 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"r6hd9QmzXSL67gMX8TlvnDWAFifBaN7iBpX25t9CGxk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r6hd9QmzXSL67gMX8TlvnDWAFifBaN7iBpX25t9CGxk="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/Components/Pages/Books.razor.js.gz",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\98di45bnmn-lztijjxn71.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hKo29/P2T/csbghG06UwdnIeW9SsmlLR/0YwWf3ADKc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Oct 2024 09:27:04 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hKo29/P2T/csbghG06UwdnIeW9SsmlLR/0YwWf3ADKc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/Components/Pages/BooksIndex.razor.js",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\Components\\Pages\\BooksIndex.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FPhib5XDNljVS2ExS9RgZT+BUkB5uSVXG7jdg9NwNoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 17:35:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FPhib5XDNljVS2ExS9RgZT+BUkB5uSVXG7jdg9NwNoc="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/Components/Pages/BooksIndex.razor.js",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\4lvebu42ft-46t1ifx3r6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,014285714286"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uf999s9ZYP0rYmFAhfiHo8nlO4geTGTVKyk4yYypFow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 17:35:09 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FPhib5XDNljVS2ExS9RgZT+BUkB5uSVXG7jdg9NwNoc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FPhib5XDNljVS2ExS9RgZT+BUkB5uSVXG7jdg9NwNoc="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/Components/Pages/BooksIndex.razor.js.gz",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\4lvebu42ft-46t1ifx3r6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uf999s9ZYP0rYmFAhfiHo8nlO4geTGTVKyk4yYypFow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 17:35:09 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uf999s9ZYP0rYmFAhfiHo8nlO4geTGTVKyk4yYypFow="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/StoryTailBlazor/favicon.png"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/favicon.png",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Oct 2024 09:18:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/StoryTailBlazor.bundle.scp.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\p4nibngsxy-o0s5yp24ox.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,000491159136"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2035"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7xZt9JRS3r3AiY2VfXqMxbbTEHbFeT/zIx9nx45XnH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 15:40:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6FzX6qVkUT7m2PMiVXhtuC9UhYQ8EdqXOICZYPRuTZ8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6FzX6qVkUT7m2PMiVXhtuC9UhYQ8EdqXOICZYPRuTZ8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/StoryTailBlazor.bundle.scp.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\StoryTailBlazor.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6784"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6FzX6qVkUT7m2PMiVXhtuC9UhYQ8EdqXOICZYPRuTZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 15:40:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6FzX6qVkUT7m2PMiVXhtuC9UhYQ8EdqXOICZYPRuTZ8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/StoryTailBlazor.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\p4nibngsxy-o0s5yp24ox.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7xZt9JRS3r3AiY2VfXqMxbbTEHbFeT/zIx9nx45XnH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 15:40:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7xZt9JRS3r3AiY2VfXqMxbbTEHbFeT/zIx9nx45XnH0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/StoryTailBlazor.o0s5yp24ox.bundle.scp.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\p4nibngsxy-o0s5yp24ox.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,000491159136"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2035"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7xZt9JRS3r3AiY2VfXqMxbbTEHbFeT/zIx9nx45XnH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 15:40:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6FzX6qVkUT7m2PMiVXhtuC9UhYQ8EdqXOICZYPRuTZ8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o0s5yp24ox"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6FzX6qVkUT7m2PMiVXhtuC9UhYQ8EdqXOICZYPRuTZ8="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/StoryTailBlazor/StoryTailBlazor.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/StoryTailBlazor.o0s5yp24ox.bundle.scp.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\StoryTailBlazor.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6784"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6FzX6qVkUT7m2PMiVXhtuC9UhYQ8EdqXOICZYPRuTZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 15:40:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o0s5yp24ox"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6FzX6qVkUT7m2PMiVXhtuC9UhYQ8EdqXOICZYPRuTZ8="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/StoryTailBlazor/StoryTailBlazor.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/StoryTailBlazor/StoryTailBlazor.o0s5yp24ox.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\Debug\\net9.0\\compressed\\p4nibngsxy-o0s5yp24ox.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7xZt9JRS3r3AiY2VfXqMxbbTEHbFeT/zIx9nx45XnH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 15:40:07 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o0s5yp24ox"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7xZt9JRS3r3AiY2VfXqMxbbTEHbFeT/zIx9nx45XnH0="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/StoryTailBlazor/StoryTailBlazor.bundle.scp.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "StoryTailApi.7wm45wd2su.styles.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\Debug\\net9.0\\compressed\\hoazoh60p8-7wm45wd2su.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,011363636364"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AnVnxKF8W4C8pt3lw4ujisCEASD/04an/TYdrWVzm48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 16:01:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Gb7DncvwIE/W9lhczx9dDz0zUitArLmrcw2p7yQAOnM=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/StoryTailBlazor/StoryTailBlazor.o0s5yp24ox.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7wm45wd2su"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gb7DncvwIE/W9lhczx9dDz0zUitArLmrcw2p7yQAOnM="
+        },
+        {
+          "Name": "label",
+          "Value": "StoryTailApi.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "StoryTailApi.7wm45wd2su.styles.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\Debug\\net9.0\\scopedcss\\bundle\\StoryTailApi.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gb7DncvwIE/W9lhczx9dDz0zUitArLmrcw2p7yQAOnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 16:01:21 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/StoryTailBlazor/StoryTailBlazor.o0s5yp24ox.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7wm45wd2su"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gb7DncvwIE/W9lhczx9dDz0zUitArLmrcw2p7yQAOnM="
+        },
+        {
+          "Name": "label",
+          "Value": "StoryTailApi.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "StoryTailApi.7wm45wd2su.styles.css.gz",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\Debug\\net9.0\\compressed\\hoazoh60p8-7wm45wd2su.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AnVnxKF8W4C8pt3lw4ujisCEASD/04an/TYdrWVzm48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 16:01:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7wm45wd2su"
+        },
+        {
+          "Name": "label",
+          "Value": "StoryTailApi.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AnVnxKF8W4C8pt3lw4ujisCEASD/04an/TYdrWVzm48="
+        }
+      ]
+    },
+    {
+      "Route": "StoryTailApi.styles.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\Debug\\net9.0\\compressed\\hoazoh60p8-7wm45wd2su.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0,011363636364"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AnVnxKF8W4C8pt3lw4ujisCEASD/04an/TYdrWVzm48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 16:01:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Gb7DncvwIE/W9lhczx9dDz0zUitArLmrcw2p7yQAOnM=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/StoryTailBlazor/StoryTailBlazor.o0s5yp24ox.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gb7DncvwIE/W9lhczx9dDz0zUitArLmrcw2p7yQAOnM="
+        }
+      ]
+    },
+    {
+      "Route": "StoryTailApi.styles.css",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\Debug\\net9.0\\scopedcss\\bundle\\StoryTailApi.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gb7DncvwIE/W9lhczx9dDz0zUitArLmrcw2p7yQAOnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 16:01:21 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/StoryTailBlazor/StoryTailBlazor.o0s5yp24ox.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gb7DncvwIE/W9lhczx9dDz0zUitArLmrcw2p7yQAOnM="
+        }
+      ]
+    },
+    {
+      "Route": "StoryTailApi.styles.css.gz",
+      "AssetFile": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\Debug\\net9.0\\compressed\\hoazoh60p8-7wm45wd2su.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AnVnxKF8W4C8pt3lw4ujisCEASD/04an/TYdrWVzm48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 16:01:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AnVnxKF8W4C8pt3lw4ujisCEASD/04an/TYdrWVzm48="
+        }
+      ]
+    }
+  ]
+}
