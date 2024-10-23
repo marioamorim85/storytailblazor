@@ -1,40 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\StoryTailApi.csproj": {}
+    "C:\\ApplicationTests\\storytailblazor\\StoryTailApi\\StoryTailApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\StoryTailApi.csproj": {
+    "C:\\ApplicationTests\\storytailblazor\\StoryTailApi\\StoryTailApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\StoryTailApi.csproj",
+        "projectUniqueName": "C:\\ApplicationTests\\storytailblazor\\StoryTailApi\\StoryTailApi.csproj",
         "projectName": "StoryTailApi",
-        "projectPath": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\StoryTailApi.csproj",
-        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailApi\\obj\\",
+        "projectPath": "C:\\ApplicationTests\\storytailblazor\\StoryTailApi\\StoryTailApi.csproj",
+        "packagesPath": "C:\\Users\\vventura\\.nuget\\packages\\",
+        "outputPath": "C:\\ApplicationTests\\storytailblazor\\StoryTailApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\vventura\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\StoryTailBlazor.csproj": {
-                "projectPath": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\StoryTailBlazor.csproj"
+              "C:\\ApplicationTests\\storytailblazor\\StoryTailBlazor\\StoryTailBlazor.csproj": {
+                "projectPath": "C:\\ApplicationTests\\storytailblazor\\StoryTailBlazor\\StoryTailBlazor.csproj"
               }
             }
           }
@@ -48,7 +41,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -90,33 +84,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\vventura\\.dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\StoryTailBlazor.csproj": {
+    "C:\\ApplicationTests\\storytailblazor\\StoryTailBlazor\\StoryTailBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\StoryTailBlazor.csproj",
+        "projectUniqueName": "C:\\ApplicationTests\\storytailblazor\\StoryTailBlazor\\StoryTailBlazor.csproj",
         "projectName": "StoryTailBlazor",
-        "projectPath": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\StoryTailBlazor.csproj",
-        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario\\OneDrive\\Documentos\\ISLA\\ISLA\\3º Ano\\1º Semestre\\Laboratório de Programação - Prof. Hélder - 6 ects\\StoryTailBlazorSolution\\StoryTailBlazor\\obj\\",
+        "projectPath": "C:\\ApplicationTests\\storytailblazor\\StoryTailBlazor\\StoryTailBlazor.csproj",
+        "packagesPath": "C:\\Users\\vventura\\.nuget\\packages\\",
+        "outputPath": "C:\\ApplicationTests\\storytailblazor\\StoryTailBlazor\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\vventura\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -134,7 +121,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -170,7 +158,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\vventura\\.dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
